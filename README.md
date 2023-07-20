@@ -1,5 +1,5 @@
 <h3 align="center">𝚃𝙷𝙴 𝙲𝙻𝙾𝙽𝙴 𝙾𝙵</h3>
-<h2 align="center"> <a href="https://github.com/FantasticSukhi/MAMBA-USERBOT">🔥 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 🔥</a></h2>
+<h2 align="center"> <a href="https://github.com/FantasticSukhi/MAMBA-USERBOT">🔥 𝙼𝙰𝙼𝙱𝙰-𝚄𝚂𝙴𝚁𝙱𝙾𝚃 🔥</a></h2>
 
 
 <h1 align="center">⚡ мαмвα-υѕєявσт ⚡</h1>
