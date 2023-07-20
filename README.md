@@ -1,11 +1,11 @@
 <h3 align="center">𝚃𝙷𝙴 𝙲𝙻𝙾𝙽𝙴 𝙾𝙵</h3>
-<h2 align="center"> <a href="https://github.com/H1M4N5HU0P/MAFIA-USERBOT">🔥 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 🔥</a></h2>
+<h2 align="center"> <a href="https://github.com/FantasticSukhi/MAMBA-USERBOT">🔥 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 🔥</a></h2>
 
 
-<h1 align="center">⚡ 𝙼𝙰𝙵𝙸𝙰 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ⚡</h1>
+<h1 align="center">⚡ мαмвα-υѕєявσт ⚡</h1>
 
 
-[![MAFIA LOGO](https://telegra.ph/file/b61486075c6ef73dd0d12.jpg)](https://t.me/MafiaBot_Support)
+[![MAMBA LOGO](https://telegra.ph/file/.jpg)](https://t.me/MambaBot_Support)
 
 
 <h2 align="center">The owner would not be responsible for any kind of bans due to the bot.</h2>
@@ -20,22 +20,11 @@
 
 <h4>⚜️DEPLOY TO HEROKU⚜️</h4>
 
-<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FMafiaBotIsOP%2FMafiaBotOP&template=https%3A%2F%2Fgithub.com%2FMafiaBotIsOP%2FMafiaBotOP" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
+<a href="https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FFantasticSukhi%2FMAMBABOTOP&template=https%3A%2F%2Fgithub.com%2FFantasticSukhi%2FMAMBABOTOP" rel="nofollow" style="background-color: initial; box-sizing: border-box; color: #0366d6; text-decoration-line: none;"><img alt="Deploy" data-canonical-src="https://www.herokucdn.com/deploy/button.svg" src="https://camo.githubusercontent.com/83b0e95b38892b49184e07ad572c94c8038323fb/68747470733a2f2f7777772e6865726f6b7563646e2e636f6d2f6465706c6f792f627574746f6e2e737667" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
 
-<h2 align="center"> <a href="https://github.com/H1M4N5HU0P/MAFIA-BOT">⚡ 𝚃𝙷𝙴 𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃 ⚡</a></h2>
+<h2 align="center"> <a href="https://github.com/FantasticSukhi/MAMBA-USERBOT">⚡ мαмвα-υѕєявσт ⚡</a></h2>
 </details>
 
-<details>
-  <summary> • 🏅CREDITS🏅 • </summary>
-
-• [JaaduBot](https://github.com/Amberyt/JaaduBot)
-
-• [Uniborg](https://github.com/spechide/uniborg)
-
-• [Hêllẞø†](https://github.com/thevaders/vader)
-
-• [Kittu](https://t.me/Autichrist)
-</details>
 
 <details>
   <summary> • ✅OFFICIAL SUPPORTS✅ • </summary>
@@ -47,7 +36,7 @@ support Group and get updates
 notifications in Update Channel.
 ```
 
-<a href="https://t.me/MafiaBot_Support"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/MambaBot_Support"><img src="https://img.shields.io/badge/Join-Support%20Channel-red.svg?style=for-the-badge&logo=Telegram"></a>
 </details>
 
 <h1 align="center">⚙️ SET-UP ⚙️</h1>
@@ -57,14 +46,15 @@ notifications in Update Channel.
 
 - Termux
     - Clone `git clone https://github.com/H1M4N5HU0P/MAFIA-BOT.git`
-    - Then Do  `cd MAFIA-BOT`
+    - Clone `git clone https://github.com/FantasticSukhi/MAMBA-BOT.git`
+    - Then Do  `cd MAMBA-BOT`
     - Run String Generator By
            `bash string.sh`
     - Then Fill The Required Details.
     - API ID, API HASH, PHONE NUMBER (WITH COUNTRY CODE)
  
 - Repl Run
-    - Click [Here](https://replit.com/@H1M4N5HU0P/MAFIABOT#main.py) to open Repl run.
+    - Click [Here](https://replit.com/@USERNAME/NAME#main.py) to open Repl run.
     - Click On Green Play Button.
     - Wait for a while then fill the details.
     - String will be saved in your Saved Message.
@@ -90,7 +80,7 @@ notifications in Update Channel.
     - `APP_ID`:   You can get this value from [here](https://my.telegram.org)
     - `API_HASH`:   You can get this value from [here](https://my.telegram.org)
     - `ENV`:   `ANYTHING`
-    - `STRING_SESSION`:   You can get this value from running `python3 string_session.py` in termux after cloning this repo. Or just using [repl run](https://replit.com/@H1M4N5HU0P/MAFIABOT#main.py)
+    - `STRING_SESSION`:   You can get this value from running `python3 string_session.py` in termux after cloning this repo. Or just using [repl run](https://replit.com/@USERNAME/NAME#main.py)
     - `LOG_GROUP`:   Make a Channel Or Group and get it's id.
     - `DATABASE_URL`:   Make a database on elephant sql and paste the url.
     - `DB_URI`:   Same as `DATABASE_URL`
@@ -107,7 +97,7 @@ notifications in Update Channel.
 
 Copyright (C) 2021 H1M4N5HU0P
 
-Poject [𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃](https://github.com/H1M4N5HU0P/MAFIA-BOT) is free software: you can redistribute it and/or modify
+Poject [𝙼𝙰𝙵𝙸𝙰𝙱𝙾𝚃](https://github.com/FantasticSukhi/MAMBA-BOT) is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
 the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
