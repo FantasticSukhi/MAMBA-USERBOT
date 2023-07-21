@@ -49,7 +49,7 @@ def load_module(shortname):
         spec = importlib.util.spec_from_file_location(name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
-        LOGS.info("MafiaBot - Successfully imported " + shortname)
+        LOGS.info("MambaBot - Successfully imported " + shortname)
     else:
         import userbot.utils
 
@@ -66,19 +66,19 @@ def load_module(shortname):
         sys.modules["uniborg.util"] = userbot.utils
         mod.Config = Config
         mod.borg = bot
-        mod.mafiabot = bot
+        mod.Mambabot = bot
         mod.edit_or_reply = edit_or_reply
-        mod.delete_mafia = delete_mafia
+        mod.delete_Mamba = delete_Mamba
         mod.media_type = media_type
-        # support for mafiabot originals
-        sys.modules["mafiabot.utils"] = userbot.utils
-        sys.modules["mafiabot"] = userbot
+        # support for Mambabot originals
+        sys.modules["Mambabot.utils"] = userbot.utils
+        sys.modules["Mambabot"] = userbot
         # support for paperplaneextended
         sys.modules["userbot.events"] = userbot.utils
         spec.loader.exec_module(mod)
         # for imports
         sys.modules["userbot.plugins." + shortname] = mod
-        LOGS.info("⚡🔥MafiaBot⚡🔥 - Successfully imported " + shortname)
+        LOGS.info("⚡🔥MambaBot⚡🔥 - Successfully imported " + shortname)
 
 
 def remove_plugin(shortname):
@@ -121,12 +121,12 @@ def admin_cmd(pattern=None, command=None, **args):
                 CMD_LIST.update({file_test: [cmd]})
         else:
             if len(Config.COMMAND_HAND_LER) == 2:
-                mafiareg = "^" + Config.COMMAND_HAND_LER
+                Mambareg = "^" + Config.COMMAND_HAND_LER
                 reg = Config.COMMAND_HAND_LER[1]
             elif len(Config.COMMAND_HAND_LER) == 1:
-                mafiareg = "^\\" + Config.COMMAND_HAND_LER
+                Mambareg = "^\\" + Config.COMMAND_HAND_LER
                 reg = Config.COMMAND_HAND_LER
-            args["pattern"] = re.compile(mafiareg + pattern)
+            args["pattern"] = re.compile(Mambareg + pattern)
             if command is not None:
                 cmd = reg + command
             else:
@@ -186,12 +186,12 @@ def sudo_cmd(pattern=None, command=None, **args):
                 SUDO_LIST.update({file_test: [cmd]})
         else:
             if len(Config.SUDO_COMMAND_HAND_LER) == 2:
-                mafiareg = "^" + Config.SUDO_COMMAND_HAND_LER
+                Mambareg = "^" + Config.SUDO_COMMAND_HAND_LER
                 reg = Config.SUDO_COMMAND_HAND_LER[1]
             elif len(Config.SUDO_COMMAND_HAND_LER) == 1:
-                mafiareg = "^\\" + Config.SUDO_COMMAND_HAND_LER
+                Mambareg = "^\\" + Config.SUDO_COMMAND_HAND_LER
                 reg = Config.COMMAND_HAND_LER
-            args["pattern"] = re.compile(mafiareg + pattern)
+            args["pattern"] = re.compile(Mambareg + pattern)
             if command is not None:
                 cmd = reg + command
             else:
@@ -290,13 +290,13 @@ async def edit_or_reply(
     await event.delete()
     os.remove(file_name)
 
-async def delete_mafia(event, text, time=None, parse_mode=None, link_preview=None):
+async def delete_Mamba(event, text, time=None, parse_mode=None, link_preview=None):
     parse_mode = parse_mode or "md"
     link_preview = link_preview or False
     time = time or 5
     if event.sender_id in Config.SUDO_USERS:
         reply_to = await event.get_reply_message()
-        mafiaevent = (
+        Mambaevent = (
             await reply_to.reply(text, link_preview=link_preview, parse_mode=parse_mode)
             if reply_to
             else await event.reply(
@@ -304,11 +304,11 @@ async def delete_mafia(event, text, time=None, parse_mode=None, link_preview=Non
             )
         )
     else:
-        mafiaevent = await event.edit(
+        Mambaevent = await event.edit(
             text, link_preview=link_preview, parse_mode=parse_mode
         )
     await asyncio.sleep(time)
-    return await mafiaevent.delete()
+    return await Mambaevent.delete()
 
 # from paperplaneextended
 on = bot.on
